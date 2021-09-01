@@ -2,9 +2,92 @@
 <html>
 <head>
 <meta charset="utf-8">
-<style></style>
+<style>
+		
+
+body {
+		background-color: #7E7E7E;
+	    margin: 0px;
+		font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	}
+
+
+#myCalculator {
+		margin-left: calc(50% - 100px);
+	}	
+	
+	
+#display {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 193px;
+	height: 30px;
+	background-color: aliceblue;
+	text-align: right;
+	
+	}	
+	
+
+.number {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 50px;
+	height: 50px;
+	background-color: #FFCA6A;
+	border: 0px;
+	font-size: 20px;
+	}
+	
+
+.operator {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 50px;
+	height: 50px;
+	background-color: #FDFC00; 
+	border: 0px;
+	font-size: 20px;
+	}	
+	
+	
+.operator2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 200px;
+	height: 50px;
+	background-color: #FDFC00; 
+	border: 0px;
+	font-size: 20px;
+	}
+	
+	
+.number:hover{
+	background-color: dodgerblue;
+	}
+
+.operator:hover{
+	background-color: mediumpurple;
+    }	
+	
+.operator2:hover{
+	background-color: mediumpurple;
+    }	
+	
+.inputRow {
+	margin:0px;
+	padding: 0px;
+	font-size: 0px;
+	}
+	
+	
+</style>
+
+	
 <title>Calculator</title>
 </head>
+
+<!--Start of calculator-->
 
 <body>
 <form name="calculator">
@@ -17,7 +100,7 @@
 
 	
 <div class="inputRow">
-<input type="button" class="operator" name="clear" value="AC" onclick="calculator.display.value = ' '">	
+<input type="button" class="operator2" name="clear" value="AC" onclick="calculator.display.value = ' '">	
 </div>	
 	
 	
@@ -48,9 +131,10 @@
 	
 <div class="inputRow">
 <input type="button" class="operator" name="divide" value="/" onclick="calculator.display.value +='/'">
-<input type="button" class="number" value="0" onclick="calculator.display.value+='0'">
-<input type="button" class="decimal" value="." onclick="calculator.display.value+='.'">
 <input type="button" class="operator" name="equals" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+<input type="button" class="number" value="0" onclick="calculator.display.value+='0'">
+<input type="button" class="number" value="." onclick="calculator.display.value+='.'">
+
 </div>
 	
 
