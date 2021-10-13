@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* Reset browser default styles: */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  list-style: none;
+}
+
+/* border-box so that border widths aren't added to the total width of the element: */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Clearfix to make floated elements behave correctly: */
+  .cf:before, .cf:after { content: ""; display: table; }
+  .cf:after { clear: both; }
+  .cf { zoom: 1; }
+  .clear { clear: both; }
+  
+a:focus,
+a:active {
+	outline: none;
+}
+
+/* In order for the percentage heights to work we need this: */
+html, body { height:100%; }
+
+
+/* Start of CSS */
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#title h1 {
+	font-size: 100px;
+	font-weight: 900;
+	margin-left: 2%;
+	width: 52%;
+	color: rgb(46,54,144);
+}
+#title h2 {
+	font-size: 100px;
+	font-weight: 900;
+	margin-left: 2%;
+	width: 43%;
+	color: rgb(0,0,0);
+}
+#tableofcontents {
+	font-size: 21px;
+	font-weight: 300;
+	margin-left: 66.668%;
+	color: rgb(46,54,144);
+}
+.number {
+	margin-left: 2%;
+	font-weight: 900;
+	font-size: 500px;
+}
+.subheader {
+	font-size: 48px;
+	font-weight: 900;
+	margin-left: 33.334%;
+	width: 66.668%;
+	color: rgb(46,54,144);
+}
+.description {
+	font-size: 24px;
+	font-weight: 500;
+	margin-left: 33.334%;
+	
+}
+.triangle {
+    border-left: 900px solid transparent;
+    border-right: 900px solid transparent;
+    border-top: 250px solid rgb(46,54,144);
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
