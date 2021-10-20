@@ -77,21 +77,34 @@ body {
 .subheader {
 	font-size: 48px;
 	font-weight: 900;
-	margin-left: 33.334%;
-	width: 66.668%;
+	margin-left: 5%;
+	width: 100%;
 	color: rgb(46,54,144);
+	background-color: aqua;
 }
 .description {
 	font-size: 24px;
 	font-weight: 500;
-	margin-left: 33.334%;
+	margin-top: 10px;
+	width: 100%;
+	background-color: aqua;
 	
+}
+.list1 {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+	background-color: bisque;
 }
 .triangle {
     border-left: 900px solid transparent;
     border-right: 900px solid transparent;
     border-top: 250px solid rgb(46,54,144);
 	margin-top: 50px;
+	margin-bottom: 50px;
+	display: block;
+	float: left;
 }
 
 
