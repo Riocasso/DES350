@@ -66,37 +66,43 @@ body {
 #tableofcontents {
 	font-size: 21px;
 	font-weight: 300;
-	margin-left: 66.668%;
+	margin-left: 66.668%;  
 	color: rgb(46,54,144);
 }
 .number {
 	margin-left: 2%;
+	display: inline-block;
 	font-weight: 900;
-	font-size: 500px;
+	font-size: 300px;
+	width: 20%;
+	float: left;
+
 }
 .subheader {
 	font-size: 48px;
 	font-weight: 900;
-	margin-left: 5%;
 	width: 100%;
 	color: rgb(46,54,144);
-	background-color: aqua;
+	margin-top: 100px;
+	margin-left: 34%;
+
 }
+
 .description {
 	font-size: 24px;
 	font-weight: 500;
-	margin-top: 10px;
 	width: 100%;
-	background-color: aqua;
-	
+	margin-top: 10px;
+	margin-left: 34%;
 }
-.list1 {
+
+.list1{
 	display: block;
 	float: left;
 	width: 100%;
 	margin-bottom: 100px;
-	background-color: bisque;
 }
+
 .triangle {
     border-left: 900px solid transparent;
     border-right: 900px solid transparent;
