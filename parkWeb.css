@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset browser default styles: */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  list-style: none;
+  
+}
+
+/* border-box so that border widths aren't added to the total width of the element: */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Clearfix to make floated elements behave correctly: */
+  .cf:before, .cf:after { content: ""; display: table; }
+  .cf:after { clear: both; }
+  .cf { zoom: 1; }
+  .clear { clear: both; }
+  
+a:focus,
+a:active {
+	outline: none;
+}
+
+/* In order for the percentage heights to work we need this: */
+html, body { height:100%; }
+
+
+
+
+/* ======================================================
+   General Rules 
+   ====================================================== */
+/*   
+Font weight values for Source Sans Pro Family: -
+Light 300, Regular 400, Semi Bold 600, Bold 700, Black 900
+*/
+
+/* start of styling */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #2A8842;
+	color: #FFFFFF;
+}
+
+.container {
+	width: 90%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto; 
+	
+}
+
+.title1 h1 {
+	font-size: 72px; 
+	font-weight: 900;
+	margin-left: 33.334%;
+	padding-top: 200px;
+}
+
+.title2 h3 {
+	font-size: 48px;
+	font-weight: Bold 700;
+	font-family: 'Dancing Script', cursive;
+	margin-left: 55%;
+}
+
+.info {
+	margin-top: 240px;
+}
+.date p {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 25px;
+	margin-left: 30.7%;
+}
+
+.location p {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 25px;
+	margin-left: 31.7%;
+}
+
+.acres p {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 25px;
+	margin-left: 34%;
+}
+
+.desTitle1 h1 {
+	font-size: 48px;
+	font-weight: 900;
+	margin-left: 16.667%;
+	padding-top: 500px;
+	padding-bottom: 100px;
+}
+
+.description p {
+	font-size: 36px;
+	font-weight: 400;
+	margin-left: 16.667%;
+	width: 50%;
+}
+
+.listTitle1 h1 {
+	font-size: 48px;
+	font-weight: 900;
+	margin-left: 16.667%;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+.list p {
+	font-size: 36px;
+	font-weight: 400;
+	color: #FCEE1D;
+	margin-left: 16.667%;
+	padding-bottom: 50px;
+}
+
+.listTitle2 h1 {
+	font-size: 48px;
+	font-weight: 900;
+	margin-left: 33.334%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.circle1 {
+	background: #48B75B;
+    border-radius: 50%;
+    width: 1300px;
+    height: 1300px;
+	z-index: -1;
+	position: absolute; 
+	margin-left: 16.667%;
+}
+
+.circle2 {
+	background: #32A8C3;
+    border-radius: 50%;
+    width: 1100px;
+    height: 1100px;
+	z-index: -1;
+	position: absolute; 
+	margin-left: 22%;
+	margin-top: 5%;
+	
+}
+
+.circle3 {
+	background: #48B75B;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+	z-index: -1;
+	position: absolute; 
+	margin-left: 30%;
+	margin-top: 25%;
+}
+
+.clickNow {
+   border-radius: 25px;
+   background: #32A8C3;
+   padding: 25px;
+   width: 300px;
+   height: 50px;
+   margin-left: 42%;
+}
+
+.alsoVisit {
+	font-size: 36px;
+	font-weight: 400;
+	margin-left: 16.667%;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+
+.park1 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  margin-top: 50px;
+  float: left;
+  margin-left: 16.667%;
+  margin-bottom: 100px;
+}
+
+.otherParks {
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
